@@ -76,7 +76,7 @@
                     <p>As explained above, a decorative images is one that if you took it off the page, the user would still be able to use and understand the page fully, because the image isn't adding any information they won't have otherwise. When adding these in your HTML, you indicate that they are decorative by leaving the alt text attribute empty. You can't leave the alt attribute off completely, just blank. Generally though, you'll add decorative images using CSS.</p>
 
                     <!-- TO DO: add the image named square-red-blue to this section below. Be sure to add its height and width -->
-                    <img src="images/square-red-blue.jpg" alt="" width"400" height"400">  
+                    <img src="images/square-red-blue.jpg" alt="" width="400" height="400" >  
 
                     <p class="credit">Photo by <a href="https://unsplash.com/@usgs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">USGS</a> on <a href="https://unsplash.com/wallpapers/cool/abstract?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
                 </section>
@@ -133,7 +133,7 @@
                 <p>In HTML, tables are used for tabular data. Think of data similar to a schedule or what you might find easier to read in a spreadsheet format. Tables can cause issues on smaller screens, as they aren't responsive, so consider that if you add them to a page. If they will be small enough to fit on the screen, even with their data, you should be fine.</p>
                 <table>
                     <!-- TO DO: Complete the code below to create a caption for this table -->
-                    Hours of Operation
+                    <caption>Hours of Operation</caption>
 
                     <thead>
                         <tr>
@@ -155,6 +155,7 @@
                     <tr>
                         <!-- TO DO: Complete the code below to create a cell that will span all columns -->
                         <!-- Wednesday - <span class="bold">Closed</span> -->
+                         <td colspan="2">Wednesday - <span class="bold">Closed</span> </td>
                     </tr>
 
                     <tr>
@@ -176,6 +177,7 @@
                     <tr>
                         <!-- TO DO: Complete the code below to create a cell containing that text -->
                         <!-- Sunday -->
+                         <td>Sunday</td>
                     </tr>
                 </table>
             </section>
